@@ -2,7 +2,7 @@
 
 ![C++](https://img.shields.io/badge/Language-C++-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-ESP32%20%7C%20Arduino-lightgrey.svg)
-![License](https://img.shields.io/badge/License-MIT-green.svg)
+
 
 An automated, touchless waste disposal solution designed for hygiene and convenience. This project utilizes an **ESP32 microcontroller**, an **HC-SR04 ultrasonic sensor**, and a **PWM-controlled servo motor** to create a highly responsive, autonomous bin lid. 
 
