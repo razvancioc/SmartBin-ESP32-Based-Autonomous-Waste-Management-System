@@ -10,7 +10,7 @@ This repository contains the C++ firmware, hardware schematics, and 3D-printable
 
 ---
 
-## 🚀 System Overview
+## System Overview
 
 The SmartBin minimizes physical contact with waste receptacles. By utilizing high-frequency ultrasonic distance measurement (40kHz), the system detects an approaching hand or object and triggers a servo motor to articulate the lid smoothly and silently.
 
@@ -22,7 +22,7 @@ The SmartBin minimizes physical contact with waste receptacles. By utilizing hig
 
 ---
 
-## 🛠 Hardware Specifications
+## Hardware Specifications
 
 To build this project, you will need the following components:
 
@@ -49,7 +49,7 @@ To build this project, you will need the following components:
 | Signal (Orange) | GPIO 13 | PWM Control |
 | GND (Brown) | GND | Ground |
 
-## 🔧 Installation & Setup
+## Installation & Setup
 
 Follow these steps to replicate the SmartBin system. This process involves mechanical assembly, circuit wiring, and firmware flashing.
 
