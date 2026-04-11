@@ -21,6 +21,10 @@ The SmartBin minimizes physical contact with waste receptacles. By utilizing hig
 * **Low Latency:** Dual-core ESP32 processing ensures instantaneous response times.
 * **Parametric Design:** Fully 3D-printable chassis and mounting brackets.
 
+  <p align="center">
+  <img src="CAD/Dimensions.pdf" alt="Assembled Bin Blueprint" width="800" />
+</p>
+
 ---
 
 ## Hardware Specifications
