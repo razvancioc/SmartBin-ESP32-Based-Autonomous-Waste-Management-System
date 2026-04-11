@@ -52,6 +52,10 @@ To ensure consistent logic, connect the components to the ESP32 pins as defined 
 | **VCC (All)** | 5V / VIN | Red | System Power (5V) |
 | **GND (All)** | GND | Black/Brown | Common Ground |
 
+<p align="center">
+  <img src="CAD/Automated_Bin.png" alt="Wiring Schematic" width="800" />
+</p>
+
 ## Installation & Setup
 
 Follow these steps to replicate the SmartBin system. This process involves mechanical assembly, circuit wiring, and firmware flashing.
