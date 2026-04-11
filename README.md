@@ -1,5 +1,6 @@
 # SmartBin-ESP32-Based-Autonomous-Waste-Management-System
 
+![Status: Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-orange)
 ![C++](https://img.shields.io/badge/Language-C++-blue.svg)
 ![Platform](https://img.shields.io/badge/Platform-ESP32%20%7C%20Arduino-lightgrey.svg)
 
