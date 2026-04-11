@@ -22,7 +22,7 @@ The SmartBin minimizes physical contact with waste receptacles. By utilizing hig
 * **Parametric Design:** Fully 3D-printable chassis and mounting brackets.
 
   <p align="center">
-  <img src="CAD/Dimensions.pdf" alt="Assembled Bin Blueprint" width="800" />
+  <img src="https://github.com/razvancioc/SmartBin-ESP32-Based-Autonomous-Waste-Management-System/blob/main/CAD/Dimensions.pdf" alt="Assembled Bin Blueprint" width="800" />
 </p>
 
 ---
