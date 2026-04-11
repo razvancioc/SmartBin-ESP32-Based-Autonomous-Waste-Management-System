@@ -75,7 +75,21 @@ The system is built using the Arduino framework for ESP32.
 3.  **Upload:** Connect the ESP32 via USB and flash the `src/main.cpp` file.
 4.  **Verification:** Open the Serial Monitor at **115200 baud**. You should see distance telemetry in real-time.
 
-### 4. Calibration & Tuning
+### 4. Mechanical Assembly & Linkage
+
+The conversion of the servo's rotational motion into the lid's pivoting motion requires a **mechanical linkage rod**.
+
+### Linkage Fabrication:
+1. **Material:** Use a rigid wire (e.g., a heavy-duty paperclip or a 1.5mm steel wire).
+2. **Setup:** - Connect one end of the wire to the **servo horn** (the plastic arm provided with the motor).
+   - Connect the other end to the attachment point on the **3D-printed lid**.
+3. **Calibration:** - Ensure the linkage length allows the lid to remain flush with the bin body when the servo is at its `baseAngle` ($0^\circ$).
+   - Manually verify that the $25^\circ$ displacement provides enough clearance for the lid to open without mechanical binding.
+
+> [!TIP]
+> Use a "Z-bend" or a small loop at both ends of the wire to ensure the linkage remains secure during repeated actuation cycles.
+
+### 5. Calibration & Tuning
 The behavior of the bin can be modified in the configuration section of the source code:
 
 ```cpp
@@ -84,4 +98,6 @@ const int detectionThreshold = 30;
 
 // Adjust the lid opening angle based on your hinge design
 const int movementDegrees = 25;
+
+
 
