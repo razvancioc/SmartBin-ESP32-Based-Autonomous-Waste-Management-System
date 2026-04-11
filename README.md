@@ -34,20 +34,18 @@ To build this project, you will need the following components:
 | **Power Source** | 5V DC Supply / USB | 1 |
 | **Enclosure** | 3D Printed Parts (See `/cad`) | 1 |
 
-### Wiring & Pinout
 
-| HC-SR04 Sensor | ESP32 Pin | Function |
-| :--- | :--- | :--- |
-| VCC | 5V / VIN | Power |
-| Trig | GPIO 2 | Pulse Trigger |
-| Echo | GPIO 15 | Echo Return |
-| GND | GND | Ground |
+### Hardware Configuration (I/O Mapping)
 
-| Servo Motor | ESP32 Pin | Function |
-| :--- | :--- | :--- |
-| VCC (Red) | 5V / VIN | Power |
-| Signal (Orange) | GPIO 13 | PWM Control |
-| GND (Brown) | GND | Ground |
+To ensure consistent logic, connect the components to the ESP32 pins as defined in the table below:
+
+| Component | ESP32 Pin | Wire Color | Function |
+| :--- | :--- | :--- | :--- |
+| **HC-SR04 Trig** | GPIO 2 | Yellow/White | Ultrasonic Pulse Trigger |
+| **HC-SR04 Echo** | GPIO 15 | Green/Blue | Pulse Echo Return |
+| **Servo Signal** | GPIO 13 | Orange | PWM Control Signal |
+| **VCC (All)** | 5V / VIN | Red | System Power (5V) |
+| **GND (All)** | GND | Black/Brown | Common Ground |
 
 ## Installation & Setup
 
