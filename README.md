@@ -98,12 +98,7 @@ The conversion of the servo's rotational motion into the lid's pivoting motion r
 > [!TIP]
 > Use a "Z-bend" or a small loop at both ends of the wire to ensure the linkage remains secure during repeated actuation cycles.
 
-### 5. Calibration & Tuning
-The behavior of the bin can be modified in the configuration section of the source code:
 
-```cpp
-// Change the detection range (cm)
-const int detectionThreshold = 30; 
 
 // Adjust the lid opening angle based on your hinge design
 const int movementDegrees = 25;
