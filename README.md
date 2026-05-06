@@ -100,8 +100,7 @@ The conversion of the servo's rotational motion into the lid's pivoting motion r
 
 
 
-// Adjust the lid opening angle based on your hinge design
-const int movementDegrees = 25;
+
 
 
 
