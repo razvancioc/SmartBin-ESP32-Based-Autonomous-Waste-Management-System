@@ -92,7 +92,7 @@ The conversion of the servo's rotational motion into the lid's pivoting motion r
 1. **Material:** Use a rigid wire (e.g., a heavy-duty paperclip or a 1.5mm steel wire).
 2. **Setup:** - Connect one end of the wire to the **servo horn** (the plastic arm provided with the motor).
    - Connect the other end to the attachment point on the **3D-printed lid**.
-3. **Calibration:** - Ensure the linkage length allows the lid to remain flush with the bin body when the servo is at its `baseAngle` ($0^\circ$).
+3. **Calibration:** - Ensure the linkage length allows the lid to remain flush with the bin body when the servo is at its `baseAngle` ($90^\circ$).
    - Manually verify that the $25^\circ$ displacement provides enough clearance for the lid to open without mechanical binding.
 
 > [!TIP]
