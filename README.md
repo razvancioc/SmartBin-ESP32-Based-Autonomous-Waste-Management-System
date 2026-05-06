@@ -38,7 +38,7 @@ The SmartBin minimizes physical contact with waste receptacles. By utilizing hig
 </p>
 <p align="center">
   <a href="https://youtube.com/shorts/aJmP0IkLn2k">
-    <img src="https://img.youtube.com/vi/aJmP0IkLn2k/maxresdefault.jpg" alt="Watch the video" width="600" />
+    <img src="https://img.youtube.com/vi/aJmP0IkLn2k/maxresdefault.jpg" alt="Click on the image to see the video." width="600" />
   </a>
 </p>
 
