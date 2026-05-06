@@ -25,6 +25,18 @@ The SmartBin minimizes physical contact with waste receptacles. By utilizing hig
   <img src="CAD/Dimensions.png" alt="Assembled Bin Blueprint" width="800" />
 </p>
 
+### Assambled product
+
+<p align="center">
+  <img src="Media/IMG_6247.png" alt="" width="800" />
+</p>
+<p align="center">
+  <img src="Media/IMG_6248.png" alt="" width="800" />
+</p>
+<p align="center">
+  <img src="Media/IMG_6250.png" alt="" width="800" />
+</p>
+
 ---
 
 ## Hardware Specifications
